@@ -1,7 +1,9 @@
+import Image from 'next/image'
+import LoginForm from '../../Components/LoginForm'
 const Login = () => {
   return (
-    <div>
-      <h1>Login page here</h1>
+    <div className="smallFormContainer">
+      <LoginForm />
     </div>
   )
 }

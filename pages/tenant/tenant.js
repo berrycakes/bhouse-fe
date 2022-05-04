@@ -1,7 +1,9 @@
+import Map from '../../Components/Map'
+
 const Tenant = () => {
   return (
     <div>
-      <h1>Tenant View</h1>
+      <Map />
     </div>
   )
 }
